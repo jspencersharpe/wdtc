@@ -32,3 +32,8 @@ a {
     color: #FFF;
     text-align: center;
 }
+
+img {
+    max-width: 300px;
+    margin-top: 4rem;
+}
