@@ -33,7 +33,7 @@ a {
     text-align: center;
 }
 
-img {
+a > img {
     max-width: 300px;
     margin-top: 4rem;
 }
