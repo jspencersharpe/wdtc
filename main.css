@@ -33,7 +33,12 @@ a {
     text-align: center;
 }
 
-a > img {
+.wrapper > img {
     max-width: 300px;
+    margin-top: 4rem;
+}
+
+.itunes {
+    max-width: 200px;
     margin-top: 4rem;
 }
