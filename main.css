@@ -15,6 +15,7 @@ body {
 .container {
     min-height: 100%;
     margin-top: 4rem;
+    padding: 1rem;
 }
 
 .footer {
@@ -29,15 +30,46 @@ a > i {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 0;
     text-transform: uppercase;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .wrapper > img {
     max-width: 300px;
 }
 
-.itunes {
-    max-width: 200px;
+.link-wrap {
+    margin-bottom: 2rem;
+}
+
+.link-wrap > a > img {
+    max-width: 125px;
+    cursor: pointer;
+}
+
+@media (min-width: 600px) {
+    h1 {
+        font-size: 3rem;
+    }
+    
+    .links {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 900px) {
+    .links {
+        width: 50%;
+    }
 }
